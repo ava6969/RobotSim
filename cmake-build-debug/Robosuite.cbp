@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Robosuite"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\vcpkg\;CMake Files\..\..\vcpkg\scripts\;CMake Files\..\..\vcpkg\scripts\buildsystems\;CMake Files\..\..\vcpkg\installed\;CMake Files\..\..\vcpkg\installed\x64-linux\;CMake Files\..\..\vcpkg\installed\x64-linux\share\;CMake Files\..\..\vcpkg\installed\x64-linux\share\cudnn\;CMake Files\..\..\vcpkg\installed\x64-linux\share\nlohmann_json\;CMake Files\..\..\vcpkg\installed\x64-linux\share\pugixml\;CMake Files\..\..\libtorch\;CMake Files\..\..\libtorch\share\;CMake Files\..\..\libtorch\share\cmake\;CMake Files\..\..\libtorch\share\cmake\Torch\;CMake Files\..\..\libtorch\share\cmake\Caffe2\;CMake Files\..\..\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dewe/CLionProjects/Robosuite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dewe/CLionProjects/Robosuite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dewe/CLionProjects/Robosuite/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robosuite">
+				<Option output="/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Robosuite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dewe/CLionProjects/Robosuite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/home/dewe/CLionProjects/Robosuite/environments"/>
+					<Add directory="/home/dewe/CLionProjects/Robosuite/mujoco/include"/>
+					<Add directory="/home/dewe/libtorch/include"/>
+					<Add directory="/home/dewe/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/home/dewe/vcpkg/installed/x64-linux/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robosuite"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robosuite/fast">
+				<Option output="/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Robosuite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dewe/CLionProjects/Robosuite/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add directory="/home/dewe/CLionProjects/Robosuite/environments"/>
+					<Add directory="/home/dewe/CLionProjects/Robosuite/mujoco/include"/>
+					<Add directory="/home/dewe/libtorch/include"/>
+					<Add directory="/home/dewe/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/home/dewe/vcpkg/installed/x64-linux/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robosuite/fast"/>
+					<CompileFile command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j32 -f &quot;/home/dewe/CLionProjects/Robosuite/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/base_controller.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/base_controller.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/controller_factory.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/controller_factory.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/interpolator.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/interpolator.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/joint_pos.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/joint_pos.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/joint_tor.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/joint_tor.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/joint_vel.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/controllers/joint_vel.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/devices/device.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/devices/device.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/base.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/base.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/manipulation/manipulation_env.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/manipulation/manipulation_env.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/manipulation/single_arm_env.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/manipulation/single_arm_env.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/manipulation/stack.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/manipulation/stack.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/robot_env.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/environments/robot_env.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/mj_sim.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/arenas/arena.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/arenas/arena.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/arenas/empty_arena.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/arenas/table_arena.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/arenas/table_arena.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/base.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/base.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/gripper_factory.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/gripper_factory.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/gripper_model.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/gripper_model.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/gripper_tester.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/gripper_tester.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/rethink_gripper.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/robotiq_three_finger_gripper.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/grippers/robotiq_three_finger_gripper.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/mounts/mount_model.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/mounts/mount_model.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/mounts/null_mount.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/mounts/rethink_minimal_mount.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/mounts/rethink_mount.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/objects/generated_objects.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/objects/generated_objects.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/objects/objects.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/objects/objects.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/objects/primitive/box.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/objects/xml_objects.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/robots/manipulator_model.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/robots/manipulator_model.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/robots/robot_factory.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/robots/robot_model.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/robots/robot_model.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/robots/sawyer_robot.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/tasks/task.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/tasks/task.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/models/world.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/robots/manipulator.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/robots/manipulator.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/robots/robot.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/robots/robot.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/robots/single_arm.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/robots/single_arm.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/scripts.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/buffers.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/control_utils.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/control_utils.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/globals.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/macros.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/mjcf_utils.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/mjcf_utils.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/observables.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/observables.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/placement_samplers.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/placement_samplers.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/sensors.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/sensors.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/transforms.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/utils/transforms.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/wrappers/gym_wrapper.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/wrappers/gym_wrapper.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/wrappers/wrapper.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/environments/robosuite/wrappers/wrapper.h">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/main.cpp">
+			<Option target="Robosuite"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/cudnn/vcpkg-cmake-wrapper.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\cudnn\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/nlohmann_json/nlohmann_jsonConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/nlohmann_json/nlohmann_jsonConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/nlohmann_json/nlohmann_jsonTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\nlohmann_json\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/pugixml/pugixml-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/pugixml/pugixml-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/pugixml/pugixml-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/pugixml/pugixml-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../vcpkg/installed/x64-linux/share/pugixml/pugixml-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\installed\x64-linux\share\pugixml\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDNN.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/cmake-build-debug/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/dewe/CLionProjects/Robosuite/cmake-build-debug/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
